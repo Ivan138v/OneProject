@@ -1,4 +1,4 @@
-Celsius = int(input("Enter a Temperature in Celsius: "))
+Celsius = float(input("Enter a Temperature in Celsius: "))
 Fahrenheit = ((9 * Celsius)/5) + 32
 def convert(Celsius, Fahrenheit):
     """'convert' function takes 2 parameters, 'Celsius' & 'Fahrenheit' and
